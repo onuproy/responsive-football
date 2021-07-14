@@ -89,14 +89,6 @@ img{
 .hero-text h1 span{
     color:#FC8C47;
 } 
-.hero-text p {
-	font-weight: 500;
-	font-size: 20px;
-	letter-spacing: -0.02em;
-	color: #828282;
-	line-height: 1.6;
-	max-width: 80%;
-}
 .button {
 	margin-top: 27px;
 }
@@ -186,4 +178,40 @@ img{
 	transform: scale(1.1);
 }
 
-/******* Start player SEcion Css ARea *******/
+/******* End player SEcion Css ARea *******/
+
+/***** Start All Highlights Section Css ARea  ****/
+.all-highlights-area{
+    padding-top: 40px;
+    background: #FFF;
+    padding-bottom: 70px;
+}
+.hero-text h2 {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+	color: #0A0826;
+	margin-bottom: 8px;
+}
+.hero-text p {
+	letter-spacing: -0.02em;
+	max-width: 80%;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #6C6C6C;
+}
+.all-highlights-area:hover .button a {
+	background: #3DBAFD;
+	margin-left: 10px;
+}
+.hero-image img{
+    width: 100%;
+}
+/******* End All Highlights Section Css ARea *****/
+
+/* Footer Section Css ARea */
+.footer-area{
+    background: #FFF;
+}
+/* Footer Section Css ARea */
