@@ -33,9 +33,15 @@ img{
     margin: auto;
 }
 .header-area-contetn {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .menu ul{
     padding-left: 0px;
@@ -50,18 +56,24 @@ img{
     font-size: 16px;
     line-height: 24px;
 	padding: 0 15px;
+	-webkit-transition: 0.2s;
 	transition: 0.2s;
     color: #FFFF;
 }
 .login-button a {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	color: #FFF;
 	text-decoration: none;
 	background: #E02C6D;
 	padding: 10px 24px;
 	font-size: 16px;
 	line-height: 24px;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .login-button a img {
@@ -76,6 +88,8 @@ img{
 	width: 50%;
 }
 .hero-content-area {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding-top: 30px;
 }
@@ -104,10 +118,19 @@ img{
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	width: -webkit-max-content;
+	width: -moz-max-content;
 	width: max-content;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .header-area:hover .login-button a{
@@ -131,11 +154,16 @@ img{
 	background: #FFF;
 }
 .all-player-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 .single-player {
-	flex: 0 0 28.33%;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 28.33%;
+	        flex: 0 0 28.33%;
 	width: 100%;
 	background: #FFFFFF;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -146,6 +174,7 @@ img{
 }
 .player-img {
 	overflow: hidden;
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
 	height: 296px;
 }
@@ -169,14 +198,15 @@ img{
 	color: #6C6C6C;
 }
 .player-img img {
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
 	width: 100%;
 	height: 100%;
 }
-
 .player-img:hover img {
 	overflow: hidden;
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 }
 
 /******* End player SEcion Css ARea *******/
@@ -221,9 +251,15 @@ img{
 	text-align: center;
 }
 .social-icon-footer ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .social-icon-footer ul li {
 	list-style: none;
@@ -233,11 +269,18 @@ img{
 	margin: 5px 7px;
 	height: 35px;
 	width: 35px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	border-radius: 50%;
 	color: #969BAB;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .social-icon-footer{
@@ -265,6 +308,7 @@ img{
 .upcoming-match .all-player-item .single-player {
 	box-shadow: 0px 0px 40px rgba(168, 168, 168, 0.15);
 	border-radius: 10px;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .upcoming-match .all-player-item .single-player p{
@@ -303,7 +347,7 @@ img{
 .submit-button input {
 	display: inline-block;
 	font-style: normal;
-	border-radius: 100px;
+	border-radius: 3px;
 	text-decoration: none;
 	border: none;
 	color: #FFF;
@@ -314,6 +358,7 @@ img{
 	font-size: 20px;
 	line-height: 22px;
 	cursor: pointer;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .submit-button input:hover{
@@ -337,13 +382,13 @@ img{
 	margin-bottom: 30px;
 }
 .section-title p {
-	font-size: 18px;
 	max-width: 520px;
 	width: 100%;
 	margin: 0 auto;
-	color: #000;
-	line-height: 29px;
 	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #6C6C6C;
 }
 .contact-input-item {
 	max-width: 800px;
