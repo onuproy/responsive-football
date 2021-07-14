@@ -1,0 +1,44 @@
+@media all and (max-width:991px){
+    .menu ul {
+        padding-left: 0px;
+        display: none;
+    }
+    .fa.fa-bars {
+        color: #FFF;
+        font-size: 22px;
+        display: block;
+    }
+    .login-button a {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .hero-text h1 {
+        font-size: 36px;
+        line-height: 50px;
+        padding-top: 20px;
+    }
+    .header-area {
+        padding-bottom: 30px;
+    }
+    .player-img {
+        height: 268px;
+    }
+    .single-player {
+        flex: 0 0 42%;
+        max-width: 42%;
+        width: 100%;
+    }
+    .hero-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .player-secion-area {
+        padding-bottom: 40px;
+    }
+    .upcoming-match {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+}

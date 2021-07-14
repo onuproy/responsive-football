@@ -350,4 +350,7 @@ img{
 	margin: auto;
 	width: 100%;
 }
+.fa.fa-bars {
+    display: none;
+}
 /* Contact Area Css */
