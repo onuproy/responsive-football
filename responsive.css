@@ -119,5 +119,8 @@
         width: 90%;
         margin: auto;
     }
+    .hero-section-area {
+        padding-bottom: 61px;
+    }
 
 }
