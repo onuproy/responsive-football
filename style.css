@@ -3,8 +3,15 @@ body{
     padding: 0;
     margin: 0;
 }
+
+/******* End Hero SEcion Css ARea *******/
+.header-area{
+    background: #2D25A0;
+	padding-top: 30px;
+	padding-bottom: 75px;
+}
 .hero-section-are {
-	background: #FFF;
+	background: #2D25A0;
 	padding-top: 30px;
 	padding-bottom: 75px;
 }
@@ -18,28 +25,32 @@ body{
 	align-items: center;
 	justify-content: space-between;
 }
+.menu ul{
+    padding-left: 0px;
+}
 .menu ul li {
 	display: inline;
 	list-style: none;
 }
 .menu ul li a {
 	text-decoration: none;
-	font-size: 18px;
-	line-height: normal;
-	color: #575757;
-	font-weight: 400;
+	font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 	padding: 0 15px;
 	transition: 0.2s;
+    color: #FFFF;
 }
-.logo a img {
-	width: 121px;
-	height: auto;
-	display: block;
+.login-button{
+
 }
-.hero-image img{
-    width: 100%;
-    height: auto;
-}
+
+
+
+
+
+
+
 .hero-image {
 	width: 50%;
 }
@@ -81,3 +92,5 @@ body{
 	display: inline list-item;
 	list-style: none;
 }
+
+/******* End Hero SEcion Css ARea *******/
