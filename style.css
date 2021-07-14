@@ -13,6 +13,7 @@ a{
 img{
     max-width: 100%;
 }
+
 /******* End Hero SEcion Css ARea *******/
 .header-area{
     background: #2D25A0;
@@ -26,10 +27,10 @@ img{
 }
 .container{
     max-width: 1240px;
-    width: 100%;
+    width: 95%;
+    margin-left: 15px;
+    margin-right: 15px;
     margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .header-area-contetn {
 	display: flex;
@@ -310,9 +311,13 @@ img{
 	list-style: none;
 	background: #E02C6D;
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 22px;
 	cursor: pointer;
+    transition: 0.5s;
+}
+.submit-button input:hover{
+	background: #3DBAFD;
 }
 .contact-secion-area{
     background: #FFF;
