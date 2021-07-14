@@ -3,12 +3,21 @@ body{
     padding: 0;
     margin: 0;
 }
-
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
 /******* End Hero SEcion Css ARea *******/
 .header-area{
     background: #2D25A0;
 	padding-top: 30px;
-	padding-bottom: 75px;
+	padding-bottom: 59px;
 }
 .hero-section-are {
 	background: #2D25A0;
@@ -20,7 +29,7 @@ body{
     width: 100%;
     margin: auto;
 }
-.header-area {
+.header-area-contetn {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -41,13 +50,20 @@ body{
 	transition: 0.2s;
     color: #FFFF;
 }
-.login-button{
-
+.login-button a {
+	display: flex;
+	align-items: center;
+	color: #FFF;
+	text-decoration: none;
+	background: #E02C6D;
+	padding: 10px 24px;
+	font-size: 16px;
+	line-height: 24px;
 }
-
-
-
-
+.login-button a img {
+	margin-right: 12px;
+	width: 17px;
+}
 
 
 
@@ -62,11 +78,12 @@ body{
 	padding-top: 30px;
 }
 .hero-text h1 {
-	color: #575757;
+	color: #FFF;
 	font-weight: bold;
-	font-size: 60px;
-	padding-top: 80px;
-    padding-bottom: 40px;
+	padding-top: 50px;
+	margin-bottom: 27px;
+	font-size: 64px;
+	line-height: 80px;
 }
 .hero-text h1 span{
     color:#FC8C47;
@@ -79,18 +96,28 @@ body{
 	line-height: 1.6;
 	max-width: 80%;
 }
+.button {
+	margin-top: 27px;
+}
 .button a {
-	background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
-	box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
-	border-radius: 100px;
 	text-decoration: none;
 	color: #FFF;
-	font-weight: 600;
-	font-size: 18px;
-	padding: 22px 43px;
+	padding: 10px 24px;
 	cursor: pointer;
-	display: inline list-item;
 	list-style: none;
+	background: #E02C6D;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	width: max-content;
+	align-items: center;
 }
-
+.button a img {
+	width: 16px;
+	height: 14px;
+	margin-left: 12px;
+}
 /******* End Hero SEcion Css ARea *******/
