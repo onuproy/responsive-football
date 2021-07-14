@@ -213,5 +213,136 @@ img{
 /* Footer Section Css ARea */
 .footer-area{
     background: #FFF;
+    padding-top: 50px;
+    padding-bottom: 63px;
 }
+.footer-content-area {
+	text-align: center;
+}
+.social-icon-footer ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social-icon-footer ul li {
+	list-style: none;
+}
+.social-icon-footer ul li a {
+	background: #E7E7E8;
+	margin: 5px 7px;
+	height: 35px;
+	width: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: #969BAB;
+    transition: 0.5s;
+}
+.social-icon-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-icon-footer ul li a:hover {
+    background: #2D25A0;
+    color: #FFFF;
+}
+.footer-content-area p {
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+
 /* Footer Section Css ARea */
+
+/* UpComming Mathc */
+.upcoming-match{
+    background: #FFF;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.upcoming-match .all-player-item .single-player {
+	box-shadow: 0px 0px 40px rgba(168, 168, 168, 0.15);
+	border-radius: 10px;
+    transition: 0.5s;
+}
+.upcoming-match .all-player-item .single-player p{
+    padding-bottom: 10px;
+}
+.upcoming-match .all-player-item .single-player:hover {
+	background: #F2F2F2;
+}
+/* UpComming Mathc */
+
+/* Contact Area Css */
+.single-input input {
+	width: 100%;
+	outline: none !important;
+	padding: 15px;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	font-size: 15px;
+    box-sizing: border-box;
+}
+.single-input textarea {
+	width: 100%;
+	outline: none !important;
+	padding: 15px;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	height: 120px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+    box-sizing: border-box;
+}
+.submit-button input {
+	display: inline-block;
+	font-style: normal;
+	border-radius: 100px;
+	text-decoration: none;
+	border: none;
+	color: #FFF;
+	padding: 15px 43px;
+	list-style: none;
+	background: #E02C6D;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 22px;
+	cursor: pointer;
+}
+.contact-secion-area{
+    background: #FFF;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section-title {
+	text-align: center;
+	padding-bottom: 38px;
+}
+.section-title h2 {
+	color: #000;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+.section-title p {
+	font-size: 18px;
+	max-width: 520px;
+	width: 100%;
+	margin: 0 auto;
+	color: #000;
+	line-height: 29px;
+	font-weight: 400;
+}
+.contact-input-item {
+	max-width: 800px;
+	margin: auto;
+	width: 100%;
+}
+/* Contact Area Css */
