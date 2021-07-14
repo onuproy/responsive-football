@@ -19,7 +19,7 @@ img{
 	padding-top: 30px;
 	padding-bottom: 59px;
 }
-.hero-section-are {
+.hero-section-area{
 	background: #2D25A0;
 	padding-top: 30px;
 	padding-bottom: 75px;
@@ -28,6 +28,8 @@ img{
     max-width: 1240px;
     width: 100%;
     margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header-area-contetn {
 	display: flex;
@@ -59,14 +61,13 @@ img{
 	padding: 10px 24px;
 	font-size: 16px;
 	line-height: 24px;
+    transition: 0.5s;
 }
 .login-button a img {
 	margin-right: 12px;
 	width: 17px;
+	height: 16px;
 }
-
-
-
 .hero-image {
 	width: 50%;
 }
@@ -114,10 +115,75 @@ img{
 	display: flex;
 	width: max-content;
 	align-items: center;
+    transition: 0.5s;
+}
+.header-area:hover .login-button a{
+    background: #3DBAFD;
+    margin-right: 10px;
+}
+.hero-section-area:hover .button a{
+    background: #3DBAFD;
+    margin-left: 10px;
 }
 .button a img {
 	width: 16px;
 	height: 14px;
 	margin-left: 12px;
+    
 }
 /******* End Hero SEcion Css ARea *******/
+/******* Start player SEcion Css ARea *******/
+.player-secion-area {
+	padding: 70px 0;
+	background: #FFF;
+}
+.all-player-item {
+	display: flex;
+	flex-wrap: wrap;
+}
+.single-player {
+	flex: 0 0 28.33%;
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+.player-img {
+	overflow: hidden;
+	transition: 0.5s;
+	height: 296px;
+}
+.single-player h3 {
+	margin: 0;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 40px;
+	color: #18191F;
+}
+.single-player p {
+	margin: 0;
+	padding-bottom: 18px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #6C6C6C;
+}
+.player-img img {
+	transition: 0.5s;
+	width: 100%;
+	height: 100%;
+}
+
+.player-img:hover img {
+	overflow: hidden;
+	transform: scale(1.1);
+}
+
+/******* Start player SEcion Css ARea *******/
